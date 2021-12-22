@@ -1,0 +1,46 @@
+{"level":"ERROR","timestamp":"2021-12-21 18:47:58.924","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"ERROR","timestamp":"2021-12-21 18:47:58.925","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"INFO","timestamp":"2021-12-21 18:47:58.926","file":"apiresful/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 18:47:59.428","file":"apiresful/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-12-21 18:48:20.731","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"ERROR","timestamp":"2021-12-21 18:48:20.732","file":"model/init.go:32","msg":"Database connection failed. Database name: ","data":{"error":"Error 1045: Access denied for user ''@'localhost' (using password: NO)"}}
+{"level":"INFO","timestamp":"2021-12-21 18:48:20.733","file":"apiresful/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 18:48:21.236","file":"apiresful/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-21 18:52:00.885","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:00.886","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:16.142","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:16.143","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:30.301","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:30.301","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"ERROR","timestamp":"2021-12-21 18:52:36.082","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1049: Unknown database 'db_apiserver'"}}
+{"level":"ERROR","timestamp":"2021-12-21 18:52:36.084","file":"model/init.go:32","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1049: Unknown database 'db_apiserver'"}}
+{"level":"INFO","timestamp":"2021-12-21 18:52:36.085","file":"apiresful/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 18:52:36.591","file":"apiresful/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-21 18:53:11.061","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:53:11.063","file":"config/config.go:72","msg":"Config file changed: D:\\workgo\\apiresful\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-12-21 18:53:14.486","file":"apiresful/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 18:53:15.003","file":"apiresful/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-21 19:25:28.043","file":"apiresful/main.go:60","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 19:25:28.546","file":"apiresful/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-21 19:25:36.690","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-21 19:25:37.206","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 12:13:45.479","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 12:13:45.481","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 12:16:17.952","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 12:16:18.461","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 12:16:52.361","file":"user/create.go:21","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-12-22 12:16:52.361","file":"user/create.go:24","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2021-12-22 12:16:52.361","file":"user/create.go:27","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-12-22 12:16:52.361","file":"user/create.go:29","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-12-22 12:17:18.492","file":"user/create.go:21","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-12-22 12:17:18.492","file":"user/create.go:24","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2021-12-22 12:17:18.492","file":"user/create.go:27","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2021-12-22 12:17:18.492","file":"user/create.go:29","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2021-12-22 15:44:00.426","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 15:44:00.939","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 15:51:18.223","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 15:51:18.734","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 16:31:05.968","file":"apiresful/main.go:59","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 16:31:06.471","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 16:38:46.214","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-12-22 16:39:31.029","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}
