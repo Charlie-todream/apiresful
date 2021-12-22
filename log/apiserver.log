@@ -44,3 +44,7 @@
 {"level":"INFO","timestamp":"2021-12-22 16:31:06.471","file":"apiresful/main.go:56","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2021-12-22 16:38:46.214","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}
 {"level":"INFO","timestamp":"2021-12-22 16:39:31.029","file":"user/update.go:18","msg":"Update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2021-12-22 17:33:27.219","file":"apiresful/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 17:33:27.722","file":"apiresful/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 17:33:47.939","file":"middleware/logging.go:84","msg":"4.5598ms      | 127.0.0.1    | DELETE /v1/user/2 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 17:35:50.888","file":"middleware/logging.go:84","msg":"3.3303ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}

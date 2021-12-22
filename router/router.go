@@ -24,6 +24,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	})
 
 	u := g.Group("/v1/user")
+	u.Use(middleware.AuthMiddleware())
 	{
 		u.POST("", user.Create)
 
@@ -33,6 +34,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		u.GET("/:username", user.Get)
 
 	}
+	g.POST("/login", user.Login)
 
 	// The health check handlers
 	svcd := g.Group("/sd")
