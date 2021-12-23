@@ -77,3 +77,9 @@
 {"level":"INFO","timestamp":"2021-12-23 17:46:29.919","file":"apiresful/main.go:78","msg":"Start to listening the incoming requests on https address: :8081"}
 {"level":"INFO","timestamp":"2021-12-23 17:46:29.919","file":"apiresful/main.go:85","msg":"Start to listening the incoming requests on http address: :8080"}
 {"level":"INFO","timestamp":"2021-12-23 17:46:30.432","file":"apiresful/main.go:70","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-23 19:14:14.218","file":"apiresful/main.go:85","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-23 19:14:14.218","file":"apiresful/main.go:78","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2021-12-23 19:14:14.724","file":"apiresful/main.go:70","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-23 19:23:18.829","file":"apiresful/main.go:85","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-23 19:23:18.829","file":"apiresful/main.go:78","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2021-12-23 19:23:19.338","file":"apiresful/main.go:70","msg":"The router has been deployed successfully."}

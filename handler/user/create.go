@@ -11,7 +11,15 @@ import (
 	"github.com/lexkong/log/lager"
 )
 
-// Create creates a new user account.
+// PingExample godoc
+// @Summary ping example
+// @Schemes
+// @Description do ping
+// @Tags example
+// @Accept json
+// @Produce json
+// @Success 200 {string} Helloworld
+// @Router /example/helloworld [get]
 func Create(c *gin.Context) {
 	log.Info("User Create function called.", lager.Data{"X-Request-Id": util.GetReqID(c)})
 	var r CreateRequest

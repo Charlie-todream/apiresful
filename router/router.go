@@ -6,13 +6,18 @@ import (
 	"apiresful/handler/sd"
 	"apiresful/handler/user"
 	"apiresful/router/middleware"
-
+	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
+	_ "apiresful/docs"
+	swaggerfiles "github.com/swaggo/files"
+	ginSwagger "github.com/swaggo/gin-swagger"
+
 )
 
 // Load loads the middlewares, routes, handlers.
 func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	// Middlewares.
+	pprof.Register(g)
 	g.Use(gin.Recovery())
 	g.Use(middleware.NoCache)
 	g.Use(middleware.Options)
@@ -44,6 +49,6 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		svcd.GET("/cpu", sd.CPUCheck)
 		svcd.GET("/ram", sd.RAMCheck)
 	}
-
+	g.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerfiles.Handler))
 	return g
 }
