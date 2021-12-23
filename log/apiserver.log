@@ -48,3 +48,32 @@
 {"level":"INFO","timestamp":"2021-12-22 17:33:27.722","file":"apiresful/main.go:55","msg":"The router has been deployed successfully."}
 {"level":"INFO","timestamp":"2021-12-22 17:33:47.939","file":"middleware/logging.go:84","msg":"4.5598ms      | 127.0.0.1    | DELETE /v1/user/2 | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2021-12-22 17:35:50.888","file":"middleware/logging.go:84","msg":"3.3303ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 18:14:51.886","file":"apiresful/main.go:58","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 18:14:52.398","file":"apiresful/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 18:14:55.496","file":"middleware/logging.go:84","msg":"429.7µs       | 127.0.0.1    | POST /login | {code: 10002, message: Error occurred while binding the request body to the struct.}"}
+{"level":"ERROR","timestamp":"2021-12-22 18:15:05.124","file":"middleware/logging.go:76","msg":"response body can not unmarshal to model.Response struct, body: `The incorrect API route.`","data":{"error":"invalid character 'T' looking for beginning of value"}}
+{"level":"INFO","timestamp":"2021-12-22 18:15:05.125","file":"middleware/logging.go:84","msg":"0s            | 127.0.0.1    | POST /login2 | {code: 10001, message: invalid character 'T' looking for beginning of value}"}
+{"level":"INFO","timestamp":"2021-12-22 18:15:08.837","file":"middleware/logging.go:84","msg":"533.7µs       | 127.0.0.1    | POST /login | {code: 10002, message: Error occurred while binding the request body to the struct.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:15:55.832","file":"middleware/logging.go:84","msg":"212.8µs       | 127.0.0.1    | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:19:15.514","file":"middleware/logging.go:84","msg":"1.0433ms      | 127.0.0.1    | POST /login | {code: 20102, message: The user was not found.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:19:47.314","file":"middleware/logging.go:84","msg":"1.5585ms      | 127.0.0.1    | POST /login | {code: 20102, message: The user was not found.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:20:11.359","file":"middleware/logging.go:84","msg":"2.0587ms      | 127.0.0.1    | POST /login | {code: 20102, message: The user was not found.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:20:48.782","file":"middleware/logging.go:84","msg":"59.0101ms     | 127.0.0.1    | POST /login | {code: 20104, message: The password was incorrect.}"}
+{"level":"INFO","timestamp":"2021-12-22 18:22:07.980","file":"middleware/logging.go:84","msg":"61.5102ms     | 127.0.0.1    | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 18:22:20.401","file":"middleware/logging.go:84","msg":"2.5949ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:14:38.533","file":"apiresful/main.go:70","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-22 19:14:38.533","file":"apiresful/main.go:63","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2021-12-22 19:14:39.038","file":"apiresful/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-22 19:14:48.848","file":"middleware/logging.go:84","msg":"3.2468ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:14:51.525","file":"middleware/logging.go:84","msg":"2.7398ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:15:28.802","file":"middleware/logging.go:84","msg":"2.0004ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:19:05.094","file":"middleware/logging.go:84","msg":"2.2408ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:19:07.029","file":"middleware/logging.go:84","msg":"3.3459ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-22 19:19:07.791","file":"middleware/logging.go:84","msg":"2.5677ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-23 17:10:39.010","file":"apiresful/main.go:70","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-23 17:10:39.010","file":"apiresful/main.go:63","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2021-12-23 17:10:39.523","file":"apiresful/main.go:55","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-12-23 17:13:38.949","file":"middleware/logging.go:84","msg":"2.6107ms      | ::1          | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-12-23 17:46:29.919","file":"apiresful/main.go:78","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2021-12-23 17:46:29.919","file":"apiresful/main.go:85","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2021-12-23 17:46:30.432","file":"apiresful/main.go:70","msg":"The router has been deployed successfully."}
